@@ -1,15 +1,8 @@
 // add solution here
-<<<<<<< HEAD
 function theBeatlesPlay(musArr, instrArr) {
   var empty = [];
   for (let i = 0; i < musArr.length; i++) {
     let phrase = musArr[i] + " plays " + instrArr[i];
-=======
-function the BeatlesPlay(musArr, instrArr) {
-  var empty = [];
-  for (let i = 0; i < musArr.length; i++) {
-    let phrase = musArr[i] instrArr[i];
->>>>>>> d94adb7f6218303b14427bc251e48ef75781d931
     empty.push(phrase);
   }
   return empty;
